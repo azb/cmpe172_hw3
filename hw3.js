@@ -78,7 +78,7 @@ patternStream.on('data' , function (doc)
 		}
 		else
 		{
-		console.log(currentSentence);
+		console.log("'" + currentSentence + "'" + sepchar);
 		currentSentence = "";
 		}
 	}
